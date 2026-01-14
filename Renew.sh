@@ -3,7 +3,7 @@
 # shellcheck shell=bash
 
 ## Renew.sh
-scriptVersion="1.5"
+scriptVersion="1.5.1"
 
 # Written by Trevor Sysock (aka @BigMacAdmin) at Second Son Consulting Inc.
 # 
@@ -835,7 +835,6 @@ done
 # Default Ignore List
 assertionsToIgnore+="obs"
 assertionsToIgnore+="OBS"
-assertionsToIgnore+="zoom.us"
 assertionsToIgnore+="Amphetamine"
 assertionsToIgnore+="caffeinate"
 
